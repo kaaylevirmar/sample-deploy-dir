@@ -11,6 +11,9 @@ app.get('/',(req,res)=>{
     res.send('Home Page!')
 })
 
+app.get('/login',(req,res)=>{
+    res.send('login page')
+})
 
 app.listen(8000,()=>{
     console.log('Server is up and Running');
